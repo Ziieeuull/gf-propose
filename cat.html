@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Card</title>
+    <!-- Google Font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="cat_style.css" />
+
+    <!-- Additional CSS for Fancy Button -->
+    <style>
+        button {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            padding: 10px 20px;
+            background-color: #FFB6C1;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #DB4557;
+        }
+    </style>
+</head>
+<body>
+    <div class="cat">
+        <div class="ear ear--left"></div>
+        <div class="ear ear--right"></div>
+        <div class="face">
+            <div class="eye eye--left">
+                <div class="eye-pupil"></div>
+            </div>
+            <div class="eye eye--right">
+                <div class="eye-pupil"></div>
+            </div>
+            <div class="muzzle"></div>
+        </div>
+    </div>
+
+    <!-- Fancy Button -->
+    <button onclick="navigateToNextPage()">CLICK ME</button>
+
+    <!-- JavaScript to handle button click -->
+    <script>
+        function navigateToNextPage() {
+            window.location.href = "gf.html"; // Change "next_page.html" to the desired page URL
+        }
+    </script>
+</body>
+</html>
